@@ -1,4 +1,4 @@
-var playlist = { Coldplay: 'The Scientist', Eminem: 'Rap God', Lorde: 'Homemade Dynamite' } 
+var playlist = { Coldplay: 'The Scientist', } 
 
 function updatePlaylist (playlist, artistName, songTitle) {
   playlist['Slowdive'] = 'Alison';
