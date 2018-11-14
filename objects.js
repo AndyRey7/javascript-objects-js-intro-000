@@ -1,4 +1,4 @@
-var playlist = { Slowdive: 'Alison', MyBloodyValentine: 'Sometimes'} 
+var playlist = { Coldplay: 'The Scientist', MyBloodyValentine: 'Sometimes'} 
 
 function updatePlaylist (playlist, artistName, songTitle) {
   playlist['Phil Ochs'] = "Here's to the State of Mississippi"
@@ -6,6 +6,6 @@ function updatePlaylist (playlist, artistName, songTitle) {
 }
 
 function removeFromPlaylist(artistName, songTitle) {
-  delete playlist.Slowdive;
+  delete playlist.Coldplay;
   return playlist;
 }
