@@ -5,3 +5,7 @@ function updatePlaylist (playlist, artistName, songTitle) {
   return playlist
 }
 
+function removeFromPlaylist(artistName, songTitle) {
+  delete playlist.Slowdive;
+  return playlist;
+}
